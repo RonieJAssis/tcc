@@ -1,0 +1,24 @@
+micronaut:
+  server:
+    port: ${random.port}
+  application:
+    name: controller-ms3
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/tcc
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
+    schema-generate: update
+    dialect: MYSQL
+eureka:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${EUREKA_HOST:localhost}:${EUREKA_PORT:8010}
+    appname: ${micronaut.application.name}
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+netty:
+  default:
+    allocator:
+      max-order: 3

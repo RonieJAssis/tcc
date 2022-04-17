@@ -1,0 +1,24 @@
+micronaut:
+  server:
+    port: ${random.port}
+  application:
+    name: controller-ms2
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/tcc
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    schema-generate: update
+    dialect: POSTGRES
+eureka:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${EUREKA_HOST:localhost}:${EUREKA_PORT:8010}
+    appname: ${micronaut.application.name}
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+netty:
+  default:
+    allocator:
+      max-order: 3

@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: br.edu.ifsul
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, data, data-jpa, discovery-eureka, http-client, jackson-databind, java, java-application, jdbc-hikari, junit, logback, maven, mysql, netty-server, readme, shade, testcontainers, yaml]

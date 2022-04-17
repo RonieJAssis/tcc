@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "ms1"
+		},
+		{
+			"path": "ms2"
+		},
+		{
+			"path": "ms3"
+		},
+		{
+			"path": "..\\eureka-service"
+		},
+		{
+			"path": "..\\zuul-service"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

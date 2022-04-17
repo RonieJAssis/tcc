@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "ms1"
+		},
+		{
+			"path": "ms2"
+		},
+		{
+			"path": "ms3"
+		},
+		{
+			"path": "..\\zuul-service"
+		},
+		{
+			"path": "..\\eureka-service"
+		}
+	],
+	"settings": {}
+}
