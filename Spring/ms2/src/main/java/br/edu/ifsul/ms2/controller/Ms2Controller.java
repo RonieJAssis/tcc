@@ -72,7 +72,7 @@ public class Ms2Controller {
     }
     
     @GetMapping(value="/{ms1}/list")
-    public ResponseEntity<List<Ms2Dto>> findBy(@PathVariable Integer ms1) {
+    public ResponseEntity<List<Ms2Dto>> findByMs1(@PathVariable Integer ms1) {
         List<Ms2Dto> dtos = service.findByMs1(ms1);
 
         if(dtos.isEmpty()){
