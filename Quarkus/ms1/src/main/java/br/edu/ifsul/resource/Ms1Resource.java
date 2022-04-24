@@ -3,15 +3,16 @@ package br.edu.ifsul.resource;
 import java.util.Calendar;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import javax.inject.Inject;
 import javax.transaction.Transactional;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
@@ -23,12 +24,14 @@ import br.edu.ifsul.model.Ms1;
 import br.edu.ifsul.model.dto.Ms1Dto;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 
+@Path("/api/ms1")
+@Consumes(MediaType.APPLICATION_JSON)
+@Produces(MediaType.APPLICATION_JSON)
 public class Ms1Resource {
     
     @ConfigProperty(name = "quarkus.http.port")
     Integer port;
 
-    @Inject
     @RestClient
     Ms2Service ms2Service;
 
@@ -65,7 +68,7 @@ public class Ms1Resource {
         if(ms1 != null) {
             Ms1Dto ms1Dto = new ModelMapper().map(ms1, Ms1Dto.class);
             ms1Dto.setMs2s(ms2Service.findByMs1(ms1.getId()));
-            return Response.ok(ms1).build();
+            return Response.ok(ms1Dto).build();
         }
 
         return Response.status(Response.Status.NO_CONTENT.getStatusCode()).build();
