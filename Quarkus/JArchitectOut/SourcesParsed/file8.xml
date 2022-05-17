@@ -1,0 +1,6 @@
+<root><type name="Ms2Service" s="15"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Path"/>
+<annotation name="RegisterRestClient"/>
+</annotations><method name="findByMs1(java.lang.Integer)" s="19" e="23" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="(java.lang.Integer)"><annotations><annotation name="GET"/><annotation name="Path"/><annotation name="Produces"/><annotation name="Consumes"/></annotations><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

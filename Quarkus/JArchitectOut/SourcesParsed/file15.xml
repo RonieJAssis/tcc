@@ -1,0 +1,5 @@
+<root><type name="GreetingResourceTest" s="8"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="QuarkusTest"/>
+</annotations><method name="testHelloEndpoint()" s="11" e="18" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="Test"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

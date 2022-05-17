@@ -1,0 +1,5 @@
+<root><type name="Ms3ApplicationTests" s="5"  vis="package"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="SpringBootTest"/>
+</annotations><method name="contextLoads()" s="8" e="10" n ="false" sta ="false" sync ="false" vis="package" return="void"  signature="()"><annotations><annotation name="Test"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

@@ -1,0 +1,7 @@
+<root><type name="Ms3Repository" s="8"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="CrudRepository"/>
+</interfaces><annotations>
+<annotation name="Repository"/>
+</annotations><method name="findAll()" s="11" e="12" n ="false" sta ="false" sync ="false" vis="package" return="java.util.List"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

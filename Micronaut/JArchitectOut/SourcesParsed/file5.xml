@@ -1,0 +1,5 @@
+<root><type name="Ms2Client" s="9"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Client"/>
+</annotations><method name="FindByMs1(java.lang.Integer)" s="12" e="13" n ="false" sta ="false" sync ="false" vis="package" return="java.util.List"  signature="(java.lang.Integer)"><annotations><annotation name="Get"/></annotations><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

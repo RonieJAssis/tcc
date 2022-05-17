@@ -1,0 +1,19 @@
+<root><type name="Ms2Controller" s="21"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="RestController"/>
+<annotation name="RequestMapping"/>
+</annotations><field name="service" s="24" type="Ms2Service" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Autowired"/></annotations></field>
+<method name="statusServico(java.lang.String)" s="27" e="30" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="(java.lang.String)"><annotations><annotation name="GetMapping"/></annotations><params><param type="java.lang.String"/></params><dm p="java.lang.String" s="format(java.lang.String,java.lang.Object[])"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="create(Ms2Dto)" s="32" e="36" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="(Ms2Dto)"><annotations><annotation name="PostMapping"/></annotations><params><param type="Ms2Dto"/></params><dm p="Ms2Service" s="create(Ms2Dto)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="findAll()" s="38" e="47" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="()"><annotations><annotation name="GetMapping"/></annotations><dm p="Ms2Service" s="findAll()"/>
+<dm p="java.util.List" s="isEmpty()"/>
+<metrics cc="2" cm="0" vars="1" loc="4"/></method><method name="findById(java.lang.Integer)" s="49" e="58" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="(java.lang.Integer)"><annotations><annotation name="GetMapping"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms2Service" s="findById(java.lang.Integer)"/>
+<dm p="java.util.Optional" s="isPresent()"/>
+<dm p="java.util.Optional" s="get()"/>
+<metrics cc="2" cm="0" vars="1" loc="4"/></method><method name="update(Ms2Dto)" s="60" e="65" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="(Ms2Dto)"><annotations><annotation name="PutMapping"/></annotations><params><param type="Ms2Dto"/></params><dm p="Ms2Service" s="update(Ms2Dto)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="remove(java.lang.Integer)" s="67" e="71" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="(java.lang.Integer)"><annotations><annotation name="DeleteMapping"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms2Service" s="removeMs2(java.lang.Integer)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="findByMs1(java.lang.Integer)" s="73" e="82" n ="false" sta ="false" sync ="false" vis="public" return="ResponseEntity"  signature="(java.lang.Integer)"><annotations><annotation name="GetMapping"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms2Service" s="findByMs1(java.lang.Integer)"/>
+<dm p="java.util.List" s="isEmpty()"/>
+<metrics cc="2" cm="0" vars="1" loc="4"/></method>
+</type></root>

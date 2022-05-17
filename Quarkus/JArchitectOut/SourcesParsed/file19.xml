@@ -1,0 +1,7 @@
+<root><type name="GreetingResourceIT" s="4"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<extends>
+<extend  name="GreetingResourceTest"></extend></extends>
+<annotations>
+<annotation name="QuarkusIntegrationTest"/>
+</annotations>
+</type></root>

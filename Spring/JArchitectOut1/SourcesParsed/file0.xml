@@ -1,0 +1,5 @@
+<root><type name="Ms2FeignClient" s="10"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="FeignClient"/>
+</annotations><method name="FindByMs1(java.lang.Integer)" s="13" e="14" n ="false" sta ="false" sync ="false" vis="package" return="java.util.List"  signature="(java.lang.Integer)"><annotations><annotation name="GetMapping"/></annotations><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

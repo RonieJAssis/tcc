@@ -32,7 +32,7 @@ public class Ms1Service {
     public Ms1Dto update(Ms1Dto ms1) {
         ModelMapper mapper = new ModelMapper();
         Ms1 ms1Entidade = mapper.map(ms1, Ms1.class);
-        ms1Entidade = repository.save(ms1Entidade);
+        ms1Entidade = repository.update(ms1Entidade);
         return mapper.map(ms1Entidade, Ms1Dto.class);
     }
 

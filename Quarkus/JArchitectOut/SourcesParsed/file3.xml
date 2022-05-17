@@ -1,0 +1,15 @@
+<root><type name="Ms1Resource" s="26"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Path"/>
+<annotation name="Consumes"/>
+<annotation name="Produces"/>
+</annotations><field name="port" s="31" type="java.lang.Integer" vis="package"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="ConfigProperty"/></annotations></field>
+<field name="ms2Service" s="34" type="Ms2Service" vis="package"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="RestClient"/></annotations></field>
+<method name="statusServico()" s="37" e="41" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="GET"/><annotation name="Path"/></annotations><dm p="java.lang.String" s="format(java.lang.String,java.lang.Object[])"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="create(Ms1Dto)" s="43" e="51" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="(Ms1Dto)"><annotations><annotation name="POST"/><annotation name="Transactional"/></annotations><params><param type="Ms1Dto"/></params><dm p="java.util.Calendar" s="getInstance()"/>
+<metrics cc="1" cm="0" vars="2" loc="5"/></method><method name="findAll()" s="53" e="60" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="()"><annotations><annotation name="GET"/></annotations><dm p="java.util.stream.Collectors" s="toList()"/>
+<metrics cc="1" cm="0" vars="3" loc="3"/></method><method name="findById(java.lang.Integer)" s="62" e="74" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="(java.lang.Integer)"><annotations><annotation name="GET"/><annotation name="Path"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms2Service" s="findByMs1(java.lang.Integer)"/>
+<metrics cc="2" cm="0" vars="2" loc="6"/></method><method name="update(Ms1Dto)" s="76" e="83" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="(Ms1Dto)"><annotations><annotation name="PUT"/><annotation name="Transactional"/></annotations><params><param type="Ms1Dto"/></params><metrics cc="1" cm="0" vars="1" loc="4"/></method><method name="remove(java.lang.Integer)" s="85" e="94" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="(java.lang.Integer)"><annotations><annotation name="DELETE"/><annotation name="Path"/><annotation name="Transactional"/></annotations><params><param type="java.lang.Integer"/></params><metrics cc="2" cm="0" vars="1" loc="4"/></method>
+</type></root>

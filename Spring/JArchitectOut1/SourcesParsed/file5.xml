@@ -1,0 +1,15 @@
+<root><type name="Ms1Dto" s="9"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Data"/>
+<annotation name="AllArgsConstructor"/>
+<annotation name="NoArgsConstructor"/>
+</annotations><field name="id" s="13" type="java.lang.Integer" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="name" s="14" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="value" s="15" type="java.lang.Double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="ms2s" s="16" type="java.util.List" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

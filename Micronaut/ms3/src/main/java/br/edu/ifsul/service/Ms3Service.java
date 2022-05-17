@@ -27,7 +27,7 @@ public class Ms3Service {
     public Ms3Dto update(Ms3Dto ms3) {
         ModelMapper mapper = new ModelMapper();
         Ms3 ms3Entidade = mapper.map(ms3, Ms3.class);
-        ms3Entidade = repository.save(ms3Entidade);
+        ms3Entidade = repository.update(ms3Entidade);
         return mapper.map(ms3Entidade, Ms3Dto.class);
     }
 

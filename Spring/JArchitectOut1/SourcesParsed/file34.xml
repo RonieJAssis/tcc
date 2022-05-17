@@ -1,0 +1,13 @@
+<root><type name="Ms3Dto" s="6"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Data"/>
+<annotation name="AllArgsConstructor"/>
+<annotation name="NoArgsConstructor"/>
+</annotations><field name="id" s="10" type="java.lang.Integer" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="name" s="11" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="value" s="12" type="java.lang.Double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

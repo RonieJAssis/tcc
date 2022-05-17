@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.4" timestamp="2022-05-09T19:09:47.153">
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\Ms1Application.java">
+<violation beginline="11" endline="17" begincolumn="29" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="br.edu.ifsul.ms1" class="Ms1Application" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="11" endline="17" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="13" endline="13" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="br.edu.ifsul.ms1" class="Ms1Application" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="13" endline="13" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1" class="Ms1Application" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="15" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1" class="Ms1Application" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\controller\Ms1Controller.java">
+<violation beginline="24" endline="74" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1.controller" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="24" endline="74" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="26" endline="26" begincolumn="24" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" variable="service" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" variable="service" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="29" endline="29" begincolumn="33" endcolumn="74" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="statusServico" variable="port" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'port' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="31" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="statusServico" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="35" endline="35" begincolumn="62" endcolumn="64" rule="AvoidReassigningParameters" ruleset="Design" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="create" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'ms1'
+</violation>
+<violation beginline="35" endline="38" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="create" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="41" endline="49" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findAll" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="42" endline="42" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findAll" variable="dtos" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dtos' could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="13" endcolumn="63" rule="OnlyOneReturn" ruleset="Controversial" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findAll" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="52" endline="52" begincolumn="66" endcolumn="67" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="52" endline="52" begincolumn="44" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="60" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findById" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms1' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="13" endcolumn="66" rule="OnlyOneReturn" ruleset="Controversial" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="63" endline="63" begincolumn="62" endcolumn="64" rule="AvoidReassigningParameters" ruleset="Design" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="update" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#AvoidReassigningParameters" priority="2">
+Avoid reassigning parameters such as 'ms1'
+</violation>
+<violation beginline="63" endline="67" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="70" endline="70" begincolumn="62" endcolumn="63" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="remove" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="70" endline="70" begincolumn="40" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="remove" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="73" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.controller" class="Ms1Controller" method="remove" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\http\Ms2FeignClient.java">
+<violation beginline="12" endline="17" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.http" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="15" endline="15" begincolumn="18" endcolumn="53" rule="MethodNamingConventions" ruleset="Naming" package="br.edu.ifsul.ms1.http" class="Ms2FeignClient" method="FindByMs1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not start with capital letters
+</violation>
+<violation beginline="15" endline="15" begincolumn="5" endcolumn="54" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.http" class="Ms2FeignClient" method="FindByMs1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\model\Ms1.java">
+<violation beginline="18" endline="26" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Naming" package="br.edu.ifsul.ms1.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortClassName" priority="4">
+Avoid short class names like Ms1
+</violation>
+<violation beginline="18" endline="26" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="18" endline="26" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="22" endline="22" begincolumn="21" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model" class="Ms1" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+<violation beginline="22" endline="22" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.model" class="Ms1" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="23" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model" class="Ms1" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="23" endline="23" begincolumn="20" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model" class="Ms1" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'name'.
+</violation>
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model" class="Ms1" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="24" endline="24" begincolumn="20" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model" class="Ms1" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="25" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model" class="Ms1" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="25" endline="25" begincolumn="22" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model" class="Ms1" variable="dtInsert" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'dtInsert'.
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model" class="Ms1" variable="dtInsert" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\model\dto\Ms1Dto.java">
+<violation beginline="13" endline="18" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="13" endline="18" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="14" endline="14" begincolumn="21" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+<violation beginline="14" endline="14" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="14" endline="14" begincolumn="13" endcolumn="23" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="15" endline="15" begincolumn="20" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'name'.
+</violation>
+<violation beginline="15" endline="15" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="16" endline="16" begincolumn="20" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="16" endline="16" begincolumn="13" endcolumn="25" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="ms2s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ms2s'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms1Dto" variable="ms2s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\model\dto\Ms2Dto.java">
+<violation beginline="10" endline="15" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="15" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="11" endline="11" begincolumn="21" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="11" endline="11" begincolumn="13" endcolumn="23" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="12" endline="12" begincolumn="21" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ms1'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="13" endline="13" begincolumn="20" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'name'.
+</violation>
+<violation beginline="13" endline="13" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="14" endline="14" begincolumn="20" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="14" endline="14" begincolumn="13" endcolumn="25" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.model.dto" class="Ms2Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\repository\Ms1Repository.java">
+<violation beginline="10" endline="12" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.repository" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\main\java\br\edu\ifsul\ms1\service\Ms1Service.java">
+<violation beginline="19" endline="68" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1.service" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="19" endline="68" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="22" endline="22" begincolumn="27" endcolumn="36" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="br.edu.ifsul.ms1.service" class="Ms1Service" variable="repository" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="37" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" variable="repository" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="25" endline="25" begincolumn="28" endcolumn="36" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="br.edu.ifsul.ms1.service" class="Ms1Service" variable="ms2Client" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="37" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" variable="ms2Client" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="27" endline="27" begincolumn="26" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="create" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ms1' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="33" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="create" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="create" variable="mapper" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mapper' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="26" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="update" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ms1' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="40" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="update" variable="mapper" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mapper' could be declared final
+</violation>
+<violation beginline="37" endline="38" begincolumn="9" endcolumn="50" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="update" variable="ms1Entidade" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'ms1Entidade' (lines '37'-'38').
+</violation>
+<violation beginline="42" endline="47" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findAll" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="43" endline="43" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findAll" variable="ms1s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms1s' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="46" endcolumn="47" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="49" endline="49" begincolumn="38" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="63" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="50" endline="50" begincolumn="8" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms1' could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="13" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" variable="dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dto' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="13" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" variable="ms2s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2s' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="13" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="65" endline="65" begincolumn="35" endcolumn="36" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="removeMs1" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="65" endline="65" begincolumn="27" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="removeMs1" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="67" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1.service" class="Ms1Service" method="removeMs1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Spring\ms1\src\test\java\br\edu\ifsul\ms1\Ms1ApplicationTests.java">
+<violation beginline="7" endline="13" begincolumn="1" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="7" endline="13" begincolumn="1" endcolumn="1" rule="TestClassWithoutTestCases" ruleset="JUnit" package="br.edu.ifsul.ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/junit.html#TestClassWithoutTestCases" priority="3">
+This class name ends with Test but contains no test cases
+</violation>
+<violation beginline="7" endline="13" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="9" endcolumn="9" rule="DefaultPackage" ruleset="Controversial" package="br.edu.ifsul.ms1" class="Ms1ApplicationTests" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="10" endline="11" begincolumn="29" endcolumn="9" rule="UncommentedEmptyMethodBody" ruleset="Design" package="br.edu.ifsul.ms1" class="Ms1ApplicationTests" method="contextLoads" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+</file>
+</pmd>

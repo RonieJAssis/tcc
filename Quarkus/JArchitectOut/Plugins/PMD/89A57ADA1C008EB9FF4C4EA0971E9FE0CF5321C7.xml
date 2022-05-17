@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.4" timestamp="2022-05-09T18:58:08.707">
+<file name="C:\workspace\tcc\Quarkus\ms2\.mvn\wrapper\MavenWrapperDownloader.java">
+<violation beginline="1" endline="18" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Too many lines
+</violation>
+<violation beginline="25" endline="142" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Naming" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#NoPackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="25" endline="142" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="26" endline="142" begincolumn="1" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="MavenWrapperDownloader" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="27" endline="27" begincolumn="26" endcolumn="58" rule="CommentRequired" ruleset="Comments" class="MavenWrapperDownloader" variable="WRAPPER_VERSION" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="32" endline="32" begincolumn="33" endcolumn="52" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" variable="DEFAULT_DOWNLOAD_URL" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like DEFAULT_DOWNLOAD_URL
+</violation>
+<violation beginline="37" endline="37" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="40" endline="40" begincolumn="33" endcolumn="61" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" variable="MAVEN_WRAPPER_PROPERTIES_PATH" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MAVEN_WRAPPER_PROPERTIES_PATH
+</violation>
+<violation beginline="45" endline="45" begincolumn="33" endcolumn="54" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" variable="MAVEN_WRAPPER_JAR_PATH" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like MAVEN_WRAPPER_JAR_PATH
+</violation>
+<violation beginline="48" endline="48" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="50" endline="50" begincolumn="33" endcolumn="57" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" variable="PROPERTY_NAME_WRAPPER_URL" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like PROPERTY_NAME_WRAPPER_URL
+</violation>
+<violation beginline="52" endline="52" begincolumn="30" endcolumn="42" rule="UseVarargs" ruleset="Design" class="MavenWrapperDownloader" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="52" endline="52" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="115" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Comments" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="54" endline="54" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="55" endline="55" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="main" variable="baseDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'baseDirectory' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="58" endline="58" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Comments" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentSize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="60" endline="60" begincolumn="14" endcolumn="37" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" method="main" variable="mavenWrapperPropertyFile" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like mavenWrapperPropertyFile
+</violation>
+<violation beginline="60" endline="60" begincolumn="9" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="main" variable="mavenWrapperPropertyFile" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mavenWrapperPropertyFile' could be declared final
+</violation>
+<violation beginline="61" endline="70" begincolumn="17" endcolumn="90" rule="DataflowAnomalyAnalysis" ruleset="Controversial" class="MavenWrapperDownloader" method="main" variable="url" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'url' (lines '61'-'70').
+</violation>
+<violation beginline="64" endline="64" begincolumn="29" endcolumn="63" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" method="main" variable="mavenWrapperPropertyFileInputStream" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like mavenWrapperPropertyFileInputStream
+</violation>
+<violation beginline="64" endline="67" begincolumn="17" endcolumn="101" rule="DataflowAnomalyAnalysis" ruleset="Controversial" class="MavenWrapperDownloader" method="main" variable="mavenWrapperPropertyFileInputStream" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'mavenWrapperPropertyFileInputStream' (lines '64'-'67').
+</violation>
+<violation beginline="68" endline="68" begincolumn="28" endcolumn="49" rule="LongVariable" ruleset="Naming" class="MavenWrapperDownloader" method="main" variable="mavenWrapperProperties" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like mavenWrapperProperties
+</violation>
+<violation beginline="68" endline="68" begincolumn="17" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="main" variable="mavenWrapperProperties" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mavenWrapperProperties' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="85" endline="88" begincolumn="17" endcolumn="17" rule="EmptyCatchBlock" ruleset="Empty Code" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="91" endline="91" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="93" endline="93" begincolumn="9" endcolumn="93" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="main" variable="outputFile" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'outputFile' could be declared final
+</violation>
+<violation beginline="96" endline="100" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="98" endline="98" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="102" endline="102" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="106" endline="106" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="107" endline="107" begincolumn="13" endcolumn="23" rule="DoNotCallSystemExit" ruleset="J2EE" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="109" endline="109" begincolumn="17" endcolumn="25" rule="AvoidCatchingThrowable" ruleset="Strict Exceptions" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/strictexception.html#AvoidCatchingThrowable" priority="3">
+A catch statement should never catch throwable since it includes errors.
+</violation>
+<violation beginline="111" endline="111" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#SystemPrintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="113" endline="113" begincolumn="13" endcolumn="23" rule="DoNotCallSystemExit" ruleset="J2EE" class="MavenWrapperDownloader" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="117" endline="117" begincolumn="64" endcolumn="79" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="destination" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'destination' is not assigned and could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="46" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="urlString" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'urlString' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="16" endcolumn="24" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" class="MavenWrapperDownloader" method="downloadFileFromURL" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="122" endline="122" begincolumn="13" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="username" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="123" endline="123" begincolumn="13" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="password" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'password' could be declared final
+</violation>
+<violation beginline="127" endline="130" begincolumn="27" endcolumn="17" rule="CommentRequired" ruleset="Comments" class="MavenWrapperDownloader" method="getPasswordAuthentication" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+protectedMethodCommentRequirement Required
+</violation>
+<violation beginline="133" endline="133" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="website" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'website' could be declared final
+</violation>
+<violation beginline="136" endline="136" begincolumn="9" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="MavenWrapperDownloader" method="downloadFileFromURL" variable="fos" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fos' could be declared final
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\main\java\br\edu\ifsul\model\Ms2.java">
+<violation beginline="20" endline="29" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Naming" package="br.edu.ifsul.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortClassName" priority="4">
+Avoid short class names like Ms2
+</violation>
+<violation beginline="20" endline="29" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="20" endline="29" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="24" endline="24" begincolumn="21" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model" class="Ms2" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+<violation beginline="24" endline="24" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.model" class="Ms2" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="23" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" class="Ms2" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="25" endline="25" begincolumn="21" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model" class="Ms2" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ms1'.
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" class="Ms2" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="26" endline="26" begincolumn="20" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model" class="Ms2" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'name'.
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" class="Ms2" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="27" endline="27" begincolumn="20" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model" class="Ms2" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="25" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" class="Ms2" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="28" endline="28" begincolumn="22" endcolumn="29" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model" class="Ms2" variable="dtInsert" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'dtInsert'.
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model" class="Ms2" variable="dtInsert" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\main\java\br\edu\ifsul\model\dto\Ms2Dto.java">
+<violation beginline="10" endline="15" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="15" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model.dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="11" endline="11" begincolumn="21" endcolumn="22" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'id'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="11" endline="11" begincolumn="13" endcolumn="23" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="12" endline="12" begincolumn="21" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ms1'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="13" endline="13" begincolumn="20" endcolumn="23" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'name'.
+</violation>
+<violation beginline="13" endline="13" begincolumn="13" endcolumn="24" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="14" endline="14" begincolumn="20" endcolumn="24" rule="UnusedPrivateField" ruleset="Unused Code" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'value'.
+</violation>
+<violation beginline="14" endline="14" begincolumn="13" endcolumn="25" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.model.dto" class="Ms2Dto" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\main\java\br\edu\ifsul\resource\HealthCheckResourse.java">
+<violation beginline="15" endline="29" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.resource" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="15" endline="29" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="19" endline="21" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="HealthCheckResourse" method="health" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="25" endline="27" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="HealthCheckResourse" method="status" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\main\java\br\edu\ifsul\resource\Ms2Resource.java">
+<violation beginline="29" endline="106" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul.resource" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="29" endline="106" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="31" endline="32" begincolumn="5" endcolumn="17" rule="DefaultPackage" ruleset="Controversial" package="br.edu.ifsul.resource" class="Ms2Resource" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="16" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="br.edu.ifsul.resource" class="Ms2Resource" variable="port" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="32" begincolumn="5" endcolumn="17" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" variable="port" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="36" endline="38" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="statusServico" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="42" endline="42" begincolumn="28" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="create" variable="ms2" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ms2' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="48" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="create" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="43" endline="43" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="create" variable="mapper" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mapper' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="create" variable="ms2Entidade" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2Entidade' could be declared final
+</violation>
+<violation beginline="51" endline="57" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="findAll" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="52" endline="52" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findAll" variable="ms2s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2s' could be declared final
+</violation>
+<violation beginline="53" endline="55" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findAll" variable="ms2Dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2Dto' could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="56" endcolumn="57" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="61" endline="61" begincolumn="31" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="61" endline="70" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="62" endline="62" begincolumn="9" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" variable="ms2" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="13" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" variable="ms2Dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2Dto' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="13" endcolumn="47" rule="OnlyOneReturn" ruleset="Controversial" package="br.edu.ifsul.resource" class="Ms2Resource" method="findById" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="74" endline="74" begincolumn="28" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="update" variable="ms2" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ms2' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="79" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="update" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="75" endline="75" begincolumn="9" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="update" variable="ms2Update" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2Update' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="53" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="br.edu.ifsul.resource" class="Ms2Resource" method="remove" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="84" endline="84" begincolumn="28" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="remove" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="90" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="remove" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="85" endline="85" begincolumn="9" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="remove" variable="ms2" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="31" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findByMs1" variable="ms1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'ms1' is not assigned and could be declared final
+</violation>
+<violation beginline="94" endline="105" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul.resource" class="Ms2Resource" method="findByMs1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="95" endline="95" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findByMs1" variable="ms2s" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2s' could be declared final
+</violation>
+<violation beginline="98" endline="98" begincolumn="13" endcolumn="87" rule="OnlyOneReturn" ruleset="Controversial" package="br.edu.ifsul.resource" class="Ms2Resource" method="findByMs1" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="101" endline="103" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="br.edu.ifsul.resource" class="Ms2Resource" method="findByMs1" variable="ms2Dto" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ms2Dto' could be declared final
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\test\java\br\edu\ifsul\GreetingResourceIT.java">
+<violation beginline="6" endline="9" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="6" endline="9" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+</file>
+<file name="C:\workspace\tcc\Quarkus\ms2\src\test\java\br\edu\ifsul\GreetingResourceTest.java">
+<violation beginline="10" endline="21" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Controversial" package="br.edu.ifsul" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/controversial.html#AtLeastOneConstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="21" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="13" endline="19" begincolumn="12" endcolumn="5" rule="JUnitTestsShouldIncludeAssert" ruleset="JUnit" package="br.edu.ifsul" class="GreetingResourceTest" method="testHelloEndpoint" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/junit.html#JUnitTestsShouldIncludeAssert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="13" endline="19" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="br.edu.ifsul" class="GreetingResourceTest" method="testHelloEndpoint" externalInfoUrl="https://pmd.github.io/pmd-5.3.4/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+</pmd>

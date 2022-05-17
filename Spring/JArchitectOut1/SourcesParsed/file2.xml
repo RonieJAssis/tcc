@@ -1,0 +1,7 @@
+<root><type name="Ms1Application" s="7"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="SpringBootApplication"/>
+<annotation name="EnableEurekaClient"/>
+<annotation name="EnableFeignClients"/>
+</annotations><method name="main(java.lang.String[])" s="12" e="14" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String[])"><params><param type="java.lang.String[]"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

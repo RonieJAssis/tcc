@@ -1,0 +1,7 @@
+<root><type name="Ms2Repository" s="9"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="JpaRepository"/>
+</interfaces><annotations>
+<annotation name="Repository"/>
+</annotations><method name="findByMs1(java.lang.Integer)" s="11" e="11" n ="false" sta ="false" sync ="false" vis="package" return="java.util.List"  signature="(java.lang.Integer)"><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method>
+</type></root>

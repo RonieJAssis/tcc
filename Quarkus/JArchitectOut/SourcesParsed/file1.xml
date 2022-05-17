@@ -1,0 +1,7 @@
+<root><type name="HealthCheckResourse" s="11"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Path"/>
+<annotation name="Produces"/>
+<annotation name="Consumes"/>
+</annotations><method name="health()" s="16" e="20" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="()"><annotations><annotation name="GET"/><annotation name="Path"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="status()" s="22" e="26" n ="false" sta ="false" sync ="false" vis="public" return="Response"  signature="()"><annotations><annotation name="GET"/><annotation name="Path"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

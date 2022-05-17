@@ -1,0 +1,14 @@
+<root><type name="Ms3Controller" s="18"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Controller"/>
+</annotations><field name="service" s="21" type="Ms3Service" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Inject"/></annotations></field>
+<method name="statusServico(java.lang.String)" s="24" e="27" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="(java.lang.String)"><annotations><annotation name="Get"/></annotations><params><param type="java.lang.String"/></params><dm p="java.lang.String" s="format(java.lang.String,java.lang.Object[])"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="create(Ms3Dto)" s="29" e="35" n ="false" sta ="false" sync ="false" vis="public" return="Ms3Dto"  signature="(Ms3Dto)"><annotations><annotation name="Post"/></annotations><params><param type="Ms3Dto"/></params><dm p="Ms3Service" s="create(Ms3Dto)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="findAll()" s="37" e="41" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="()"><annotations><annotation name="Get"/></annotations><dm p="Ms3Service" s="findAll()"/>
+<metrics cc="1" cm="0" vars="1" loc="2"/></method><method name="findById(java.lang.Integer)" s="43" e="47" n ="false" sta ="false" sync ="false" vis="public" return="Ms3Dto"  signature="(java.lang.Integer)"><annotations><annotation name="Get"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms3Service" s="findById(java.lang.Integer)"/>
+<dm p="java.util.Optional" s="get()"/>
+<metrics cc="1" cm="0" vars="1" loc="2"/></method><method name="update(Ms3Dto)" s="49" e="53" n ="false" sta ="false" sync ="false" vis="public" return="Ms3Dto"  signature="(Ms3Dto)"><annotations><annotation name="Put"/></annotations><params><param type="Ms3Dto"/></params><dm p="Ms3Service" s="update(Ms3Dto)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="remove(java.lang.Integer)" s="55" e="58" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.Integer)"><annotations><annotation name="Delete"/></annotations><params><param type="java.lang.Integer"/></params><dm p="Ms3Service" s="removeMs3(java.lang.Integer)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

@@ -1,0 +1,18 @@
+<root><type name="Ms2" s="14"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="Entity"/>
+<annotation name="Data"/>
+<annotation name="AllArgsConstructor"/>
+<annotation name="NoArgsConstructor"/>
+</annotations><field name="id" s="19" type="java.lang.Integer" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Id"/><annotation name="GeneratedValue"/><annotation name="SequenceGenerator"/></annotations></field>
+<field name="ms1" s="23" type="java.lang.Integer" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="name" s="24" type="java.lang.String" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="value" s="25" type="java.lang.Double" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+<field name="dtInsert" s="26" type="java.util.Calendar" vis="private"  fin ="false" sta ="false" c="0" >
+</field>
+
+</type></root>

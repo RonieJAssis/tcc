@@ -1,0 +1,14 @@
+<root><type name="Ms3Service" s="14"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="repository" s="15" type="Ms3Repository" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Inject"/></annotations></field>
+<method name="create(Ms3Dto)" s="18" e="24" n ="false" sta ="false" sync ="false" vis="public" return="Ms3Dto"  signature="(Ms3Dto)"><params><param type="Ms3Dto"/></params><dm p="java.util.Calendar" s="getInstance()"/>
+<metrics cc="1" cm="0" vars="2" loc="5"/></method><method name="update(Ms3Dto)" s="26" e="31" n ="false" sta ="false" sync ="false" vis="public" return="Ms3Dto"  signature="(Ms3Dto)"><params><param type="Ms3Dto"/></params><metrics cc="1" cm="0" vars="2" loc="4"/></method><method name="findAll()" s="33" e="38" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="()"><dm p="Ms3Repository" s="findAll()"/>
+<dm p="java.util.stream.Stream" s="map(java.util.function.Function)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.stream.Collectors" s="toList()"/>
+<metrics cc="1" cm="0" vars="2" loc="2"/></method><method name="findById(java.lang.Integer)" s="40" e="50" n ="false" sta ="false" sync ="false" vis="public" return="java.util.Optional"  signature="(java.lang.Integer)"><params><param type="java.lang.Integer"/></params><dm p="java.util.Optional" s="isPresent()"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="java.util.Optional" s="of(java.lang.Object)"/>
+<dm p="java.util.Optional" s="empty()"/>
+<metrics cc="2" cm="0" vars="2" loc="5"/></method><method name="removeMs3(java.lang.Integer)" s="52" e="54" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.Integer)"><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

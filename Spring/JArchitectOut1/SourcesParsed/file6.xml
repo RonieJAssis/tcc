@@ -1,0 +1,7 @@
+<root><type name="Ms1Repository" s="8"  vis="public"  kind="interface"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="JpaRepository"/>
+</interfaces><annotations>
+<annotation name="Repository"/>
+</annotations>
+</type></root>

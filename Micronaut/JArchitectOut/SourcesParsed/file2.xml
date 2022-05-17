@@ -1,0 +1,17 @@
+<root><type name="Ms1Service" s="16"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="repository" s="17" type="Ms1Repository" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Inject"/></annotations></field>
+<field name="ms2Client" s="20" type="Ms2Client" vis="private"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Inject"/></annotations></field>
+<method name="create(Ms1Dto)" s="23" e="29" n ="false" sta ="false" sync ="false" vis="public" return="Ms1Dto"  signature="(Ms1Dto)"><params><param type="Ms1Dto"/></params><dm p="java.util.Calendar" s="getInstance()"/>
+<metrics cc="1" cm="0" vars="2" loc="5"/></method><method name="update(Ms1Dto)" s="31" e="36" n ="false" sta ="false" sync ="false" vis="public" return="Ms1Dto"  signature="(Ms1Dto)"><params><param type="Ms1Dto"/></params><metrics cc="1" cm="0" vars="2" loc="4"/></method><method name="findAll()" s="38" e="43" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="()"><dm p="Ms1Repository" s="findAll()"/>
+<dm p="java.util.stream.Stream" s="map(java.util.function.Function)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.util.stream.Collectors" s="toList()"/>
+<metrics cc="1" cm="0" vars="2" loc="2"/></method><method name="findById(java.lang.Integer)" s="45" e="59" n ="false" sta ="false" sync ="false" vis="public" return="java.util.Optional"  signature="(java.lang.Integer)"><params><param type="java.lang.Integer"/></params><dm p="java.util.Optional" s="isPresent()"/>
+<dm p="java.util.Optional" s="get()"/>
+<dm p="Ms2Client" s="FindByMs1(java.lang.Integer)"/>
+<dm p="java.util.Optional" s="of(java.lang.Object)"/>
+<dm p="java.util.Optional" s="empty()"/>
+<metrics cc="2" cm="0" vars="3" loc="7"/></method><method name="removeMs1(java.lang.Integer)" s="61" e="63" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.Integer)"><params><param type="java.lang.Integer"/></params><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

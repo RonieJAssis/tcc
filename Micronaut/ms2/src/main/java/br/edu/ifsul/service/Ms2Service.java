@@ -28,7 +28,7 @@ public class Ms2Service {
     public Ms2Dto update(Ms2Dto ms2) {
         ModelMapper mapper = new ModelMapper();
         Ms2 ms2Entidade = mapper.map(ms2, Ms2.class);
-        ms2Entidade = repository.save(ms2Entidade);
+        ms2Entidade = repository.update(ms2Entidade);
         return mapper.map(ms2Entidade, Ms2Dto.class);
     }
 

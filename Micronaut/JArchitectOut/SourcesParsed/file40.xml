@@ -1,0 +1,7 @@
+<root><type name="Ms3Test" s="9"  vis="package"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<annotations>
+<annotation name="MicronautTest"/>
+</annotations><field name="application" s="12" type="EmbeddedApplication" vis="package"  fin ="false" sta ="false" c="0" >
+<annotations><annotation name="Inject"/></annotations></field>
+<method name="testItWorks()" s="15" e="18" n ="false" sta ="false" sync ="false" vis="package" return="void"  signature="()"><annotations><annotation name="Test"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>
